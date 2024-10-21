@@ -167,43 +167,43 @@
 \if@uni@ode
   %\captionsrussian@modern
   \addto\captionsrussian{%
-    \def\prefacename{Предисловие}%   [babel]
-    \def\refname{Список литературы}% [only article]
-    \def\abstractname{Аннотация}%    [only article, report]
-    \def\bibname{Литература}%        [only book, report]
-    \def\chaptername{Глава}%         [only book, report]
-    \def\appendixname{Приложение}%
+    \def\prefacename{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^b8^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b8^^d0^^b5}%   [babel]
+    \def\refname{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^bb^^d0^^b8^^d1^^82^^d0^^b5^^d1^^80^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}% [only article]
+    \def\abstractname{^^d0^^90^^d0^^bd^^d0^^bd^^d0^^be^^d1^^82^^d0^^b0^^d1^^86^^d0^^b8^^d1^^8f}%    [only article, report]
+    \def\bibname{^^d0^^9b^^d0^^b8^^d1^^82^^d0^^b5^^d1^^80^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d0^^b0}%        [only book, report]
+    \def\chaptername{^^d0^^93^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^b0}%         [only book, report]
+    \def\appendixname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}%
     \@ifundefined{thechapter}
-      {\def\contentsname{Содержание}}%
-      {\def\contentsname{Оглавление}}%
+      {\def\contentsname{^^d0^^a1^^d0^^be^^d0^^b4^^d0^^b5^^d1^^80^^d0^^b6^^d0^^b0^^d0^^bd^^d0^^b8^^d0^^b5}}%
+      {\def\contentsname{^^d0^^9e^^d0^^b3^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}}%
     \let\tocname=\contentsname
-    \def\listfigurename{Список иллюстраций}%
-    \def\listtablename{Список таблиц}%
-    \def\indexname{Предметный указатель}%
-    \def\authorname{Именной указатель}%
-    \def\figurename{Рис.}%
-    \def\tablename{Таблица}%
-    \def\partname{Часть}%
-    \def\enclname{вкл.}%
-    \def\ccname{исх.}%
-    \def\headtoname{вх.}%
-    \def\pagename{с.}%               [letter]
-    \def\seename{см.}%
-    \def\alsoname{см.\ также}%
-    \def\proofname{Доказательство}%  [amsthm]
-    \def\glossaryname{Словарь терминов}%
-    \def\acronymname{Аббревиатуры}%  [glossaries] {Acronyms}
-    \def\lstlistingname{Листинг}%    [listings]  (the environment) {Listing}
-    \def\lstlistlistingname{Листинги}% [listings]  (the "List of") {Listings}
-    \def\notesname{Заметки}%         [endnotes] {Notes}
+    \def\listfigurename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d0^^b8^^d0^^b9}%
+    \def\listtablename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86}%
+    \def\indexname{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d0^^b5^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\authorname{^^d0^^98^^d0^^bc^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^be^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\figurename{^^d0^^a0^^d0^^b8^^d1^^81.}%
+    \def\tablename{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d0^^b0}%
+    \def\partname{^^d0^^a7^^d0^^b0^^d1^^81^^d1^^82^^d1^^8c}%
+    \def\enclname{^^d0^^b2^^d0^^ba^^d0^^bb.}%
+    \def\ccname{^^d0^^b8^^d1^^81^^d1^^85.}%
+    \def\headtoname{^^d0^^b2^^d1^^85.}%
+    \def\pagename{^^d1^^81.}%               [letter]
+    \def\seename{^^d1^^81^^d0^^bc.}%
+    \def\alsoname{^^d1^^81^^d0^^bc.\ ^^d1^^82^^d0^^b0^^d0^^ba^^d0^^b6^^d0^^b5}%
+    \def\proofname{^^d0^^94^^d0^^be^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c^^d1^^81^^d1^^82^^d0^^b2^^d0^^be}%  [amsthm]
+    \def\glossaryname{^^d0^^a1^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8c ^^d1^^82^^d0^^b5^^d1^^80^^d0^^bc^^d0^^b8^^d0^^bd^^d0^^be^^d0^^b2}%
+    \def\acronymname{^^d0^^90^^d0^^b1^^d0^^b1^^d1^^80^^d0^^b5^^d0^^b2^^d0^^b8^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}%  [glossaries] {Acronyms}
+    \def\lstlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3}%    [listings]  (the environment) {Listing}
+    \def\lstlistlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3^^d0^^b8}% [listings]  (the "List of") {Listings}
+    \def\notesname{^^d0^^97^^d0^^b0^^d0^^bc^^d0^^b5^^d1^^82^^d0^^ba^^d0^^b8}%         [endnotes] {Notes}
   }%
   %% =========================================
   %% nomencl
   \ifdefined\nomname
     \addto\captionsrussian{%
-        \def\nomname{Обозначения}%
-        \def\eqdeclaration#1{, см.\nobreakspace(#1)}%
-        \def\pagedeclaration#1{, стр.\nobreakspace#1}%
+        \def\nomname{^^d0^^9e^^d0^^b1^^d0^^be^^d0^^b7^^d0^^bd^^d0^^b0^^d1^^87^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%
+        \def\eqdeclaration#1{, ^^d1^^81^^d0^^bc.\nobreakspace(#1)}%
+        \def\pagedeclaration#1{, ^^d1^^81^^d1^^82^^d1^^80.\nobreakspace#1}%
     }%
   \fi
   %% =========================================
@@ -217,55 +217,55 @@
     \addto\captionsrussian{%
     \def\lofname{\listfigurename}
     \def\lotname{\listtablename}
-    \def\figuresname{Рисунки}%{Figures}%
-    \def\tablesname{Таблицы}%{Tables}%
-    \def\appendixesname{Приложения}%{Appendixes}%
-    \def\acknowledgmentsname{Благодарности}%{Acknowledgments}
-    \def\andname{и}%{and}
-    \def\@pacs@name{PACS коды: }%{PACS numbers: }%
-    \def\@keys@name{Ключевые слова: }%{Keywords: }%
-    \def\Dated@name{Дата: }%{Dated: }%
-    \def\Received@name{Получено }%{Received }%
-    \def\Revised@name{Исправленная версия }%{Revised }%
-    \def\Accepted@name{Принято }%{Accepted }%
-    \def\Published@name{Опубликовано }%{Published }%
+    \def\figuresname{^^d0^^a0^^d0^^b8^^d1^^81^^d1^^83^^d0^^bd^^d0^^ba^^d0^^b8}%{Figures}%
+    \def\tablesname{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8b}%{Tables}%
+    \def\appendixesname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%{Appendixes}%
+    \def\acknowledgmentsname{^^d0^^91^^d0^^bb^^d0^^b0^^d0^^b3^^d0^^be^^d0^^b4^^d0^^b0^^d1^^80^^d0^^bd^^d0^^be^^d1^^81^^d1^^82^^d0^^b8}%{Acknowledgments}
+    \def\andname{^^d0^^b8}%{and}
+    \def\@pacs@name{PACS ^^d0^^ba^^d0^^be^^d0^^b4^^d1^^8b: }%{PACS numbers: }%
+    \def\@keys@name{^^d0^^9a^^d0^^bb^^d1^^8e^^d1^^87^^d0^^b5^^d0^^b2^^d1^^8b^^d0^^b5 ^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0: }%{Keywords: }%
+    \def\Dated@name{^^d0^^94^^d0^^b0^^d1^^82^^d0^^b0: }%{Dated: }%
+    \def\Received@name{^^d0^^9f^^d0^^be^^d0^^bb^^d1^^83^^d1^^87^^d0^^b5^^d0^^bd^^d0^^be }%{Received }%
+    \def\Revised@name{^^d0^^98^^d1^^81^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^8f }%{Revised }%
+    \def\Accepted@name{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bd^^d1^^8f^^d1^^82^^d0^^be }%{Accepted }%
+    \def\Published@name{^^d0^^9e^^d0^^bf^^d1^^83^^d0^^b1^^d0^^bb^^d0^^b8^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d0^^bd^^d0^^be }%{Published }%
     }%
   %}{}%
   \fi
   \addto\captionsrussian@ancient{%
-    \def\prefacename{Предисловіе}%
-    \def\refname{Примѣчанія}%
-    \def\abstractname{Аннотація}%
-    \def\bibname{Библіографія}%
-    \def\chaptername{Глава}%
-    \def\appendixname{Приложеніе}%
+    \def\prefacename{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^b8^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d1^^96^^d0^^b5}%
+    \def\refname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bc^^d1^^a3^^d1^^87^^d0^^b0^^d0^^bd^^d1^^96^^d1^^8f}%
+    \def\abstractname{^^d0^^90^^d0^^bd^^d0^^bd^^d0^^be^^d1^^82^^d0^^b0^^d1^^86^^d1^^96^^d1^^8f}%
+    \def\bibname{^^d0^^91^^d0^^b8^^d0^^b1^^d0^^bb^^d1^^96^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0^^d1^^84^^d1^^96^^d1^^8f}%
+    \def\chaptername{^^d0^^93^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^b0}%
+    \def\appendixname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d1^^96^^d0^^b5}%
     \@ifundefined{thechapter}
-      {\def\contentsname{Содержаніе}}%
-      {\def\contentsname{Оглавленіе}}%
+      {\def\contentsname{^^d0^^a1^^d0^^be^^d0^^b4^^d0^^b5^^d1^^80^^d0^^b6^^d0^^b0^^d0^^bd^^d1^^96^^d0^^b5}}%
+      {\def\contentsname{^^d0^^9e^^d0^^b3^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d1^^96^^d0^^b5}}%
     \let\tocname=\contentsname
-    \def\listfigurename{Списокъ иллюстрацій}%
-    \def\listtablename{Списокъ таблицъ}%
-    \def\indexname{Предмѣтный указатель}%
-    \def\authorname{Именной указатель}%
-    \def\figurename{Рис.}%
-    \def\tablename{Таблица}%
-    \def\partname{Часть}%
-    \def\enclname{вкл.}%
-    \def\ccname{исх.}%
-    \def\headtoname{вх.}%
-    \def\pagename{с.}%
-    \def\seename{см.}%
-    \def\alsoname{см.~также}%
-    \def\proofname{Доказательство}%
-    \def\glossaryname{Словарь терминов}%
-    \def\acronymname{Аббревиатуры}%
-    \def\lstlistingname{Листинг}%
-    \def\lstlistlistingname{Листинги}%
+    \def\listfigurename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d1^^96^^d0^^b9}%
+    \def\listtablename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8a}%
+    \def\indexname{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d1^^a3^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\authorname{^^d0^^98^^d0^^bc^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^be^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\figurename{^^d0^^a0^^d0^^b8^^d1^^81.}%
+    \def\tablename{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d0^^b0}%
+    \def\partname{^^d0^^a7^^d0^^b0^^d1^^81^^d1^^82^^d1^^8c}%
+    \def\enclname{^^d0^^b2^^d0^^ba^^d0^^bb.}%
+    \def\ccname{^^d0^^b8^^d1^^81^^d1^^85.}%
+    \def\headtoname{^^d0^^b2^^d1^^85.}%
+    \def\pagename{^^d1^^81.}%
+    \def\seename{^^d1^^81^^d0^^bc.}%
+    \def\alsoname{^^d1^^81^^d0^^bc.~^^d1^^82^^d0^^b0^^d0^^ba^^d0^^b6^^d0^^b5}%
+    \def\proofname{^^d0^^94^^d0^^be^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c^^d1^^81^^d1^^82^^d0^^b2^^d0^^be}%
+    \def\glossaryname{^^d0^^a1^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8c ^^d1^^82^^d0^^b5^^d1^^80^^d0^^bc^^d0^^b8^^d0^^bd^^d0^^be^^d0^^b2}%
+    \def\acronymname{^^d0^^90^^d0^^b1^^d0^^b1^^d1^^80^^d0^^b5^^d0^^b2^^d0^^b8^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}%
+    \def\lstlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3}%
+    \def\lstlistlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3^^d0^^b8}%
     %\ifdefined\nomname
     % see http://old_russian.academic.ru/8433/%D0%BE%D0%B1%D1%8A%CB%AB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%A5
-      \def\nomname{Обозначенія}%{Объавлениѥ}% <-- #0465
+      \def\nomname{^^d0^^9e^^d0^^b1^^d0^^be^^d0^^b7^^d0^^bd^^d0^^b0^^d1^^87^^d0^^b5^^d0^^bd^^d1^^96^^d1^^8f}%{^^d0^^9e^^d0^^b1^^d1^^8a^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^a5}% <-- #0465
     %\fi
-    \def\notesname{Заметки}%
+    \def\notesname{^^d0^^97^^d0^^b0^^d0^^bc^^d0^^b5^^d1^^82^^d0^^ba^^d0^^b8}%
   }
   %% =========================================
   %% RevTeX4 & RevTeX4-1
@@ -275,18 +275,18 @@
     \addto\captionsrussian@ancient{%
     \def\lofname{\listfigurename}
     \def\lotname{\listtablename}
-    \def\figuresname{Рисунки}%{Figures}%
-    \def\tablesname{Таблицы}%{Tables}%
-    \def\appendixesname{Приложения}%{Appendixes}%
-    \def\acknowledgmentsname{Благодарности}%{Acknowledgments}
-    \def\andname{и}%{and}
-    \def\@pacs@name{PACS коды: }%{PACS numbers: }%
-    \def\@keys@name{Ключевые слова: }%{Keywords: }%
-    \def\Dated@name{Дата: }%{Dated: }%
-    \def\Received@name{Получено }%{Received }%
-    \def\Revised@name{Исправленная версия }%{Revised }%
-    \def\Accepted@name{Принято }%{Accepted }%
-    \def\Published@name{Опубликовано }%{Published }%
+    \def\figuresname{^^d0^^a0^^d0^^b8^^d1^^81^^d1^^83^^d0^^bd^^d0^^ba^^d0^^b8}%{Figures}%
+    \def\tablesname{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8b}%{Tables}%
+    \def\appendixesname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%{Appendixes}%
+    \def\acknowledgmentsname{^^d0^^91^^d0^^bb^^d0^^b0^^d0^^b3^^d0^^be^^d0^^b4^^d0^^b0^^d1^^80^^d0^^bd^^d0^^be^^d1^^81^^d1^^82^^d0^^b8}%{Acknowledgments}
+    \def\andname{^^d0^^b8}%{and}
+    \def\@pacs@name{PACS ^^d0^^ba^^d0^^be^^d0^^b4^^d1^^8b: }%{PACS numbers: }%
+    \def\@keys@name{^^d0^^9a^^d0^^bb^^d1^^8e^^d1^^87^^d0^^b5^^d0^^b2^^d1^^8b^^d0^^b5 ^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0: }%{Keywords: }%
+    \def\Dated@name{^^d0^^94^^d0^^b0^^d1^^82^^d0^^b0: }%{Dated: }%
+    \def\Received@name{^^d0^^9f^^d0^^be^^d0^^bb^^d1^^83^^d1^^87^^d0^^b5^^d0^^bd^^d0^^be }%{Received }%
+    \def\Revised@name{^^d0^^98^^d1^^81^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^8f }%{Revised }%
+    \def\Accepted@name{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bd^^d1^^8f^^d1^^82^^d0^^be }%{Accepted }%
+    \def\Published@name{^^d0^^9e^^d0^^bf^^d1^^83^^d0^^b1^^d0^^bb^^d0^^b8^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d0^^bd^^d0^^be }%{Published }%
     }%
   %}{}%
   \fi
@@ -368,11 +368,11 @@
     \def\prefacename{%
       {\cyr\CYRP\cyrr\cyre\cyrd\cyri\cyrs\cyrl\cyro\cyrv\cyrii\cyre}}%
     \def\refname{%
-      {\cyr\CYRP\cyrr\cyri\cyrm\cyryat\cyrch\cyra\cyrn\cyrii\cyrya}}%          <-- Примѣчанія, нет \cyryat в кодировке T2*
+      {\cyr\CYRP\cyrr\cyri\cyrm\cyryat\cyrch\cyra\cyrn\cyrii\cyrya}}%          <-- ^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bc^^d1^^a3^^d1^^87^^d0^^b0^^d0^^bd^^d1^^96^^d1^^8f, ^^d0^^bd^^d0^^b5^^d1^^82 \cyryat ^^d0^^b2 ^^d0^^ba^^d0^^be^^d0^^b4^^d0^^b8^^d1^^80^^d0^^be^^d0^^b2^^d0^^ba^^d0^^b5 T2*
     \def\abstractname{%
       {\cyr\CYRA\cyrn\cyrn\cyro\cyrt\cyra\cyrc\cyrii\cyrya}}%
     \def\bibname{%
-      {\cyr\CYRB\cyri\cyrb\cyrl\cyrii\cyro\cyrg\cyrr\cyra\cyrf\cyrii\cyrya}}%  <-- Библіографія
+      {\cyr\CYRB\cyri\cyrb\cyrl\cyrii\cyro\cyrg\cyrr\cyra\cyrf\cyrii\cyrya}}%  <-- ^^d0^^91^^d0^^b8^^d0^^b1^^d0^^bb^^d1^^96^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0^^d1^^84^^d1^^96^^d1^^8f
     \def\chaptername{{\cyr\CYRG\cyrl\cyra\cyrv\cyra}}%
     \def\appendixname{%
       {\cyr\CYRP\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyrii\cyre}}%
@@ -382,15 +382,15 @@
       {\def\contentsname{%
         {\cyr\CYRO\cyrg\cyrl\cyra\cyrv\cyrl\cyre\cyrn\cyrii\cyre}}}%
     \let\tocname=\contentsname
-    % Списокъ иллюстрацій
+    % ^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d1^^96^^d0^^b9
     \def\listfigurename{%
       {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\cyrhrdsn\
        \cyri\cyrl\cyrl\cyryu\cyrs\cyrt\cyrr\cyra\cyrc\cyrii\cyrishrt}}
-    % Списокъ таблицъ
+    % ^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8a
     \def\listtablename{%
       {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\cyrhrdsn\
        \cyrt\cyra\cyrb\cyrl\cyri\cyrc\cyrhrdsn}}%
-    % Предмѣтный указатель, ѣ (\cyryat) in X2 encoding only
+    % ^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d1^^a3^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c, ^^d1^^a3 (\cyryat) in X2 encoding only
     \def\indexname{%
       {\cyr\CYRP\cyrr\cyre\cyrd\cyrm\cyryat\cyrt\cyrn\cyrery\cyrishrt\space
        \cyru\cyrk\cyra\cyrz\cyra\cyrt\cyre\cyrl\cyrsftsn}}%
@@ -441,34 +441,34 @@
 \if@uni@ode
   \addto\daterussian{%
    \def\today{\number\day~\ifcase\month\or
-    января\or
-    февраля\or
-    марта\or
-    апреля\or
-    мая\or
-    июня\or
-    июля\or
-    августа\or
-    сентября\or
-    октября\or
-    ноября\or
-    декабря\fi
-    \space \number\year~г.}}
+    ^^d1^^8f^^d0^^bd^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8f\or
+    ^^d1^^84^^d0^^b5^^d0^^b2^^d1^^80^^d0^^b0^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^80^^d1^^82^^d0^^b0\or
+    ^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b5^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^8f\or
+    ^^d0^^b8^^d1^^8e^^d0^^bd^^d1^^8f\or
+    ^^d0^^b8^^d1^^8e^^d0^^bb^^d1^^8f\or
+    ^^d0^^b0^^d0^^b2^^d0^^b3^^d1^^83^^d1^^81^^d1^^82^^d0^^b0\or
+    ^^d1^^81^^d0^^b5^^d0^^bd^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^be^^d0^^ba^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^bd^^d0^^be^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^b4^^d0^^b5^^d0^^ba^^d0^^b0^^d0^^b1^^d1^^80^^d1^^8f\fi
+    \space \number\year~^^d0^^b3.}}
   \def\daterussian@ancient{%
    \def\today{\number\day~\ifcase\month\or%
-    января\or
-    февраля\or
-    марта\or
-    апреля\or
-    мая\or
-    іюня\or
-    іюля\or
-    августа\or
-    сентября\or
-    октября\or
-    ноября\or
-    декабря\fi%
-    \space \number\year~г.}}
+    ^^d1^^8f^^d0^^bd^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8f\or
+    ^^d1^^84^^d0^^b5^^d0^^b2^^d1^^80^^d0^^b0^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^80^^d1^^82^^d0^^b0\or
+    ^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b5^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^8f\or
+    ^^d1^^96^^d1^^8e^^d0^^bd^^d1^^8f\or
+    ^^d1^^96^^d1^^8e^^d0^^bb^^d1^^8f\or
+    ^^d0^^b0^^d0^^b2^^d0^^b3^^d1^^83^^d1^^81^^d1^^82^^d0^^b0\or
+    ^^d1^^81^^d0^^b5^^d0^^bd^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^be^^d0^^ba^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^bd^^d0^^be^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^b4^^d0^^b5^^d0^^ba^^d0^^b0^^d0^^b1^^d1^^80^^d1^^8f\fi%
+    \space \number\year~^^d0^^b3.}}
 \else
   \def\daterussian{%
    \def\today{\number\day~\ifcase\month\or
@@ -513,10 +513,10 @@
 \def\Asbuk#1{\expandafter\russian@Alph\csname c@#1\endcsname}
 \if@uni@ode
   \def\russian@Alph#1{\ifcase#1\or
-    А\or Б\or В\or Г\or Д\or Е\or Ж\or
-    З\or И\or К\or Л\or М\or Н\or О\or
-    П\or Р\or С\or Т\or У\or Ф\or Х\or
-    Ц\or Ч\or Ш\or Щ\or Э\or Ю\or Я\else\@ctrerr\fi}
+    ^^d0^^90\or ^^d0^^91\or ^^d0^^92\or ^^d0^^93\or ^^d0^^94\or ^^d0^^95\or ^^d0^^96\or
+    ^^d0^^97\or ^^d0^^98\or ^^d0^^9a\or ^^d0^^9b\or ^^d0^^9c\or ^^d0^^9d\or ^^d0^^9e\or
+    ^^d0^^9f\or ^^d0^^a0\or ^^d0^^a1\or ^^d0^^a2\or ^^d0^^a3\or ^^d0^^a4\or ^^d0^^a5\or
+    ^^d0^^a6\or ^^d0^^a7\or ^^d0^^a8\or ^^d0^^a9\or ^^d0^^ad\or ^^d0^^ae\or ^^d0^^af\else\@ctrerr\fi}
 \else
   \def\russian@Alph#1{\ifcase#1\or
     \CYRA\or\CYRB\or\CYRV\or\CYRG\or\CYRD\or\CYRE\or\CYRZH\or
@@ -528,10 +528,10 @@
 \def\asbuk#1{\expandafter\russian@alph\csname c@#1\endcsname}
 \if@uni@ode
   \def\russian@alph#1{\ifcase#1\or
-    а\or б\or в\or г\or д\or е\or ж\or
-    з\or и\or к\or л\or м\or н\or о\or
-    п\or р\or с\or т\or у\or ф\or х\or
-    ц\or ч\or ш\or щ\or э\or ю\or я\else\@ctrerr\fi}
+    ^^d0^^b0\or ^^d0^^b1\or ^^d0^^b2\or ^^d0^^b3\or ^^d0^^b4\or ^^d0^^b5\or ^^d0^^b6\or
+    ^^d0^^b7\or ^^d0^^b8\or ^^d0^^ba\or ^^d0^^bb\or ^^d0^^bc\or ^^d0^^bd\or ^^d0^^be\or
+    ^^d0^^bf\or ^^d1^^80\or ^^d1^^81\or ^^d1^^82\or ^^d1^^83\or ^^d1^^84\or ^^d1^^85\or
+    ^^d1^^86\or ^^d1^^87\or ^^d1^^88\or ^^d1^^89\or ^^d1^^8d\or ^^d1^^8e\or ^^d1^^8f\else\@ctrerr\fi}
 \else
   \def\russian@alph#1{\ifcase#1\or
     \cyra\or\cyrb\or\cyrv\or\cyrg\or\cyrd\or\cyre\or\cyrzh\or
@@ -576,11 +576,11 @@
 \def\Prob{\mathop{\kern\z@\mathsf{P}}\nolimits}
 \def\Variance{\mathop{\kern\z@\mathsf{D}}\nolimits}
 \if@uni@ode
-  \def\nod{\mathop{\mathrm{н.о.д.}}\nolimits}
-  \def\nok{\mathop{\mathrm{н.о.к.}}\nolimits}
-  \def\NOD{\mathop{\mathrm{НОД}}\nolimits}
-  \def\NOK{\mathop{\mathrm{НОК}}\nolimits}
-  \def\Proj{\mathop{\mathrm{Пр}}\nolimits}
+  \def\nod{\mathop{\mathrm{^^d0^^bd.^^d0^^be.^^d0^^b4.}}\nolimits}
+  \def\nok{\mathop{\mathrm{^^d0^^bd.^^d0^^be.^^d0^^ba.}}\nolimits}
+  \def\NOD{\mathop{\mathrm{^^d0^^9d^^d0^^9e^^d0^^94}}\nolimits}
+  \def\NOK{\mathop{\mathrm{^^d0^^9d^^d0^^9e^^d0^^9a}}\nolimits}
+  \def\Proj{\mathop{\mathrm{^^d0^^9f^^d1^^80}}\nolimits}
 \else
   \def\nod{\mathop{\textnormal{\cyrn.\cyro.\cyrd.}}\nolimits}
   \def\nok{\mathop{\textnormal{\cyrn.\cyro.\cyrk.}}\nolimits}
@@ -608,73 +608,73 @@
 %%
 
 %% Nonunicode Cyrillic Letters
-%% \CYRA=А
-%% \CYRB=Б
-%% \CYRV=В
-%% \CYRG=Г
-%% \CYRGUP=Ґ
-%% \CYRD=Д
-%% \CYRE=Е
-%% \CYRIE=Є
-%% \CYRZH=Ж
-%% \CYRZ=З
-%% \CYRI=И
+%% \CYRA=^^d0^^90
+%% \CYRB=^^d0^^91
+%% \CYRV=^^d0^^92
+%% \CYRG=^^d0^^93
+%% \CYRGUP=^^d2^^90
+%% \CYRD=^^d0^^94
+%% \CYRE=^^d0^^95
+%% \CYRIE=^^d0^^84
+%% \CYRZH=^^d0^^96
+%% \CYRZ=^^d0^^97
+%% \CYRI=^^d0^^98
 %% \CYRII=I
-%% \CYRYI=Ї
-%% \CYRISHRT=Й
-%% \CYRK=К
-%% \CYRL=Л
-%% \CYRM=М
-%% \CYRN=Н
-%% \CYRO=О
-%% \CYRP=П
-%% \CYRR=Р
-%% \CYRS=С
-%% \CYRT=Т
-%% \CYRU=У
-%% \CYRF=Ф
-%% \CYRH=Х
-%% \CYRC=Ц
-%% \CYRCH=Ч
-%% \CYRSH=Ш
-%% \CYRSHCH=Щ
-%% \CYRYU=Ю
-%% \CYRYA=Я
-%% \CYRSFTSN=Ь
+%% \CYRYI=^^d0^^87
+%% \CYRISHRT=^^d0^^99
+%% \CYRK=^^d0^^9a
+%% \CYRL=^^d0^^9b
+%% \CYRM=^^d0^^9c
+%% \CYRN=^^d0^^9d
+%% \CYRO=^^d0^^9e
+%% \CYRP=^^d0^^9f
+%% \CYRR=^^d0^^a0
+%% \CYRS=^^d0^^a1
+%% \CYRT=^^d0^^a2
+%% \CYRU=^^d0^^a3
+%% \CYRF=^^d0^^a4
+%% \CYRH=^^d0^^a5
+%% \CYRC=^^d0^^a6
+%% \CYRCH=^^d0^^a7
+%% \CYRSH=^^d0^^a8
+%% \CYRSHCH=^^d0^^a9
+%% \CYRYU=^^d0^^ae
+%% \CYRYA=^^d0^^af
+%% \CYRSFTSN=^^d0^^ac
 %%
-%% \cyra=а
-%% \cyrb=б
-%% \cyrv=в
-%% \cyrg=г
-%% \cyrgup=ґ
-%% \cyrd=д
-%% \cyre=е
-%% \cyrie=є
-%% \cyrzh=ж
-%% \cyrz=з
-%% \cyri=и
+%% \cyra=^^d0^^b0
+%% \cyrb=^^d0^^b1
+%% \cyrv=^^d0^^b2
+%% \cyrg=^^d0^^b3
+%% \cyrgup=^^d2^^91
+%% \cyrd=^^d0^^b4
+%% \cyre=^^d0^^b5
+%% \cyrie=^^d1^^94
+%% \cyrzh=^^d0^^b6
+%% \cyrz=^^d0^^b7
+%% \cyri=^^d0^^b8
 %% \cyrii=i
-%% \cyryi=ї
-%% \cyrishrt=й
-%% \cyrk=к
-%% \cyrl=л
-%% \cyrm=м
-%% \cyrn=н
-%% \cyro=о
-%% \cyrp=п
-%% \cyrr=р
-%% \cyrs=с
-%% \cyrt=т
-%% \cyru=у
-%% \cyrf=ф
-%% \cyrh=х
-%% \cyrc=ц
-%% \cyrch=ч
-%% \cyrsh=ш
-%% \cyrshch=щ
-%% \cyryu=ю
-%% \cyrya=я
-%% \cyrsftsn=ь
+%% \cyryi=^^d1^^97
+%% \cyrishrt=^^d0^^b9
+%% \cyrk=^^d0^^ba
+%% \cyrl=^^d0^^bb
+%% \cyrm=^^d0^^bc
+%% \cyrn=^^d0^^bd
+%% \cyro=^^d0^^be
+%% \cyrp=^^d0^^bf
+%% \cyrr=^^d1^^80
+%% \cyrs=^^d1^^81
+%% \cyrt=^^d1^^82
+%% \cyru=^^d1^^83
+%% \cyrf=^^d1^^84
+%% \cyrh=^^d1^^85
+%% \cyrc=^^d1^^86
+%% \cyrch=^^d1^^87
+%% \cyrsh=^^d1^^88
+%% \cyrshch=^^d1^^89
+%% \cyryu=^^d1^^8e
+%% \cyrya=^^d1^^8f
+%% \cyrsftsn=^^d1^^8c
 %% ----------------------------------------------------------------
 %% Copyright 2011-2021 Igor A. Kotelnikov.
 %% Copyright 1995-2008 Olga G. Lapko.

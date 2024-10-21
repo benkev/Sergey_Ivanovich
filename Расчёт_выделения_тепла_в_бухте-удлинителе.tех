@@ -1,13 +1,14 @@
 \documentclass[letterpaper,twoside,12pt]{article}
+\XeTeXinputencoding "bytes"
 \usepackage[utf8]{inputenc}
-\usepackage[T1,T2A]{fontenc}
-\usepackage[english,russian]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage[russian,english]{babel}
 \usepackage{graphicx}
 \usepackage[margin=0.8in]{geometry}
 
 
 \title{Heat Dissipation}
-%\author[1]{L. Benkevitch}
+\author{L. Benkevitch}
 
 \begin{document}
 
@@ -15,7 +16,7 @@
 
 Расчёт выделения тепла в бухте-удлинителе
 
-\makeatletter Loaded languages: \bbl@loaded
+%\makeatletter Loaded languages: \bbl@loaded
 
 
 
