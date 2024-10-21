@@ -1,0 +1,22 @@
+\documentclass[letterpaper,twoside,12pt]{article}
+%\usepackage{cmap}
+\usepackage[utf8]{inputenc} % UTF8 support  
+\usepackage[russian,english]{babel}  % Russian support  
+\usepackage{graphicx}
+\usepackage[margin=0.8in]{geometry}
+
+
+\title{Heat Dissipation}
+%\author[1]{L. Benkevitch}
+
+\begin{document}
+
+\maketitle
+cghfjfgk
+
+
+
+
+\end{document}
+
+

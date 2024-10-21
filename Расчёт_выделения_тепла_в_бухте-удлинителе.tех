@@ -1,0 +1,25 @@
+\documentclass[letterpaper,twoside,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage[margin=0.8in]{geometry}
+
+
+\title{Heat Dissipation}
+%\author[1]{L. Benkevitch}
+
+\begin{document}
+
+\maketitle
+
+Расчёт выделения тепла в бухте-удлинителе
+
+\makeatletter Loaded languages: \bbl@loaded
+
+
+
+
+\end{document}
+
+
