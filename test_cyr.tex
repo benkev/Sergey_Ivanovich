@@ -1,0 +1,22 @@
+\scrollmode                    % To exit upon error
+\documentclass{article}
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setmainfont{Times New Roman} % Change to another font if Times New Roman fails
+\newfontfamily\cyrillicfont{Times New Roman} % Specify the Cyrillic font
+
+\usepackage{amsmath}
+\usepackage{unicode-math} % For Unicode math support
+
+\begin{document}
+Пример текста на русском языке.
+
+
+\begin{equation}
+  \label{ohm_law}
+  I = \frac{U_{220~\text{В}}}{R_\text{Б} + R_\text{Н}}
+\end{equation}
+
+Здесь $U_{220~\text{В}}$ обозначает напряжение, $R_\text{Б}$ — сопротивление базы, а $R_\text{Н}$ — сопротивление нагрузки
+
+\end{document}

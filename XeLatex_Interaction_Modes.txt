@@ -1,0 +1,53 @@
+Interaction modes
+TeX and the derived programs pdftex, xetex and luatex have four interaction modes:
+
+batch mode
+nonstop mode
+scroll mode
+errorstop mode
+This is in order of increasing user interaction.
+
+In batch mode nothing is printed on the terminal, errors are scrolled as if <return> is hit at every error; missing files that TeX tries to input or request from keyboard input (\read on a not open input stream) cause the job to abort.
+
+In nonstop mode the diagnostic message will appear on the terminal, but there is no possibility of user interaction just like in batch mode.
+
+In scroll mode, TeX will stop only for missing files to input or if keyboard input is necessary.
+
+In errorstop mode, TeX will stop at each error, asking for user intervention.
+
+The four modes can be set in the document using the control sequences
+
+\batchmode \nonstopmode \scrollmode \errorstopmode
+wherever one deems this useful. They will change the default interaction mode from the moment TeX will process them; note that interaction mode changes are always global. The default interaction mode is "errorstop", unless declared differently on the command line with the option
+
+tex -interaction=[batchmode|nonstopmode|scrollmode|errorstopmode]
+where tex stands for any typesetting engine known to the system (it could be pdflatex, for instance, or xetex or whatever).
+
+Engines with e-TeX extensions (pdftex, xetex and luatex) can access to the current interaction mode by looking at the internal integer register
+
+\interactionmode
+that holds the values 0, 1, 2, 3 corresponding respectively to batch, nonstop, scroll or errorstop. One can even change the current interaction mode by saying
+
+\interactionmode=<integer>
+thus making it possible to change temporarily the mode and reverting back to the previous one:
+
+\chardef\previousinteractionmode=\interactionmode
+\batchmode
+<some code where we want not to stop for errors>
+\interactionmode=\previousinteractionmode
+(for an application see this answer)
+
+Other useful command line options
+-jobname=string sets the name of the job independently of the file on which the engine is run on
+
+-halt-on-error stops the run at the first error (independently on the interaction mode)
+
+-file-line-error changes the format of error messages to show not only the line number, but also the file TeX is currently reading the input from
+
+-shell-escape enables the possibility of running system commands from within TeX
+
+-no-shell-escape disables the above
+
+-draftmode (only pdftex and luatex) produces no PDF output, so it can be useful for syntax checking
+
+There are other options, but are somewhat esoteric or aimed mainly to format building.
