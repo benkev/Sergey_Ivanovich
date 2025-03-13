@@ -42,27 +42,9 @@
 \end{figure}
 
 
-%\begin{figure}[ht!]
-%%  \begin{center}
-%  \includegraphics[width=20pc]{circuit_Rb_Rn_Rb.pdf}
-%  \caption{\small \text{Сопротивления одной жилы кабеля, нагрузки (нагревателя воды) и другой жилы кабеля в бухте.}}
-%  \label{rb_rn_rb}
-%%  \end{center}
-%\end{figure}
-
 \emph{Решение.} Заметим, что ток последовательно протекает через три сопротивления (Рис.~\ref{rb_rn_rb}): жилу кабеля, $\frac{1}{2} R_\text{Б}$, сопротивление нагревателя воды, $R_\text{Н}$, и возвращается через другую жилу кабеля, $\frac{1}{2} R_\text{Б}$. Сначала найдём все сопротивления, затем ток через них, а потом – мощность $P_\text{Б}$, выделяемую этим током в бухте.
 
 Поскольку последовательные сопротивления складываются, мы можем эту схему упростить, заменив эквивалентной, состоящей из полного сопротивления бухты, $R_\text{Б}$, и нагревателя, $R_\text{Н}$ (Рис.~\ref{rb_rn}):
-
-%\begin{figure}[ht!]
-%  \begin{center}
-%  \includegraphics[width=20pc]{circuit_Rb_Rn.pdf}
-%  \caption{\small \text{Сопротивления обеих жил кабеля в бухте и нагрузки (нагревателя воды).}}
-%  \label{rb_rn}
-%  \end{center}
-%\end{figure}
-
-
 
 Полное сопротивление кабеля в бухте, то есть последовательное сопротивление обеих жил $R_\text{Б}$ определяется удельным сопротивлением меди, 
 $\rho = 0.0172 \frac{\text{Ом мм}^2}{\text{м}}$, его сечением $a$ и длиной $l$:     % \text{Ом мм^2}
@@ -71,6 +53,13 @@ $\rho = 0.0172 \frac{\text{Ом мм}^2}{\text{м}}$, его сечением $a
   \label{rbuh}
   R_\text{Б} = \rho\frac{l}{a}.
 \end{equation}
+
+\begin{equation}
+  \label{rbuh}
+  R_\text{Б} = \rho\frac{l}{a} = (0.0172 \frac{\text{Ом\,мм}^2}{\text{м}} \text{Ом}) \times (50 \text{м}) / 
+                                 (0.75 \text{мм}^2) = .
+\end{equation}
+
 
 
 \begin{equation}
@@ -82,4 +71,26 @@ $\rho = 0.0172 \frac{\text{Ом мм}^2}{\text{м}}$, его сечением $a
 
 
 \end{document}
+
+
+
+
+
+%\begin{figure}[ht!]
+%%  \begin{center}
+%  \includegraphics[width=20pc]{circuit_Rb_Rn_Rb.pdf}
+%  \caption{\small \text{Сопротивления одной жилы кабеля, нагрузки (нагревателя воды) и другой жилы кабеля в бухте.}}
+%  \label{rb_rn_rb}
+%%  \end{center}
+%\end{figure}
+
+
+%\begin{figure}[ht!]
+%  \begin{center}
+%  \includegraphics[width=20pc]{circuit_Rb_Rn.pdf}
+%  \caption{\small \text{Сопротивления обеих жил кабеля в бухте и нагрузки (нагревателя воды).}}
+%  \label{rb_rn}
+%  \end{center}
+%\end{figure}
+
 
